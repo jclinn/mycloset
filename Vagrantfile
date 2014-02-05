@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
@@ -99,7 +98,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       # chef.add_recipe "heroku"
   end
 
-  config.vm.provision "shell", path: "../introHCI-extras.sh"
+  config.vm.provision "shell", path: "introHCI-extras.sh"
 
   # MSB: from original template:
   #  chef.cookbooks_path = "../my-recipes/cookbooks"
@@ -134,9 +133,4 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # chef-validator, unless you changed the configuration.
   #
   #   chef.validation_client_name = "ORGNAME-validator"
-=======
-Vagrant::Config.run do |config|
-  config.vm.box = "heroku"
-  config.vm.box_url = "https://dl.dropboxusercontent.com/s/rnc0p8zl91borei/heroku.box"
->>>>>>> e2fa96efa5668cfee6b4cbe17029135eb7e4160a
 end
