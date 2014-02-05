@@ -99,7 +99,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       # chef.add_recipe "heroku"
   end
 
-  config.vm.provision "shell", path: "introHCI-extras.sh"
+  config.vm.provision "shell", path: "../introHCI-extras.sh"
 
   # MSB: from original template:
   #  chef.cookbooks_path = "../my-recipes/cookbooks"
