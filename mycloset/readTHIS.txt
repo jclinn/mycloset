@@ -1,0 +1,3 @@
+Instructions on how to set up Vagrant s.t. you can modify files without having to push/pull.
+
+1. pull from 
